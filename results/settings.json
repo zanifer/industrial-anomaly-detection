@@ -1,0 +1,28 @@
+{
+  "run_mode": "standard",
+  "categories": [
+    "bottle",
+    "metal_nut",
+    "tile"
+  ],
+  "fractions": [
+    1.0
+  ],
+  "seeds": [
+    42
+  ],
+  "epochs": 20,
+  "split_seed": 42,
+  "fit_share": 0.7,
+  "validation_share": 0.15,
+  "threshold_quantile": 0.95,
+  "image_size": 224,
+  "map_size": 128,
+  "patch_grid": 14,
+  "candidate_cap": 3000,
+  "bank_size": 256,
+  "patches_per_image": 32,
+  "batch_size": 16,
+  "pretrained_weights": "ResNet18 ImageNet1K V1",
+  "source": "https://www.mvtec.com/research-teaching/datasets/mvtec-ad"
+}

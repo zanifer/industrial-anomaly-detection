@@ -1,0 +1,4 @@
+category,seconds,scope
+bottle,28.593163029999914,fit + calibration + test; shared across runs
+metal_nut,27.424054868999974,fit + calibration + test; shared across runs
+tile,34.22242286999972,fit + calibration + test; shared across runs
